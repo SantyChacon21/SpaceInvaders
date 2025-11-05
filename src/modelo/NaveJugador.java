@@ -11,6 +11,10 @@ private int xMax;
 	public void moverDerecha() {
 		mover(x+velocidad);
 	}
+
+	public void moverIzquierda(){
+		mover(x-velocidad);
+	}
 	
 	public void mover(int x) {
 		mover(x,y);

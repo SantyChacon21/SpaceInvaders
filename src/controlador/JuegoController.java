@@ -41,6 +41,13 @@ public class JuegoController {
 			nave.moverDerecha();
 		}
 	}
+
+	public void moverNaveIzquierda(){
+		NaveJugador nave = espacio.getNaveJugador();
+		if(nave!=null){
+			nave.moverIzquierda();
+		}
+	}
 	
 	public void moverNaveJugador(int x) {
 		NaveJugador naveJugador = espacio.getNaveJugador();

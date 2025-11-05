@@ -24,6 +24,10 @@ public abstract class ObjetoJuego {
 	public void moverDerecha() {
 		mover(x+velocidad, y);
 	}
+
+	public void moverIzquierda(){
+		mover(x-velocidad, y);
+	}
 	
 	public void moverArriba() {
 		mover(x, y-velocidad);

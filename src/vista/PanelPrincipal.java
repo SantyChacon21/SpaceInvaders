@@ -134,7 +134,10 @@ public class PanelPrincipal extends JPanel {
 				int tecla=evento.getKeyCode();
 				if (tecla==KeyEvent.VK_RIGHT) {
 					juegoController.moverNaveJugadorDerecha();
-				} else if (tecla == KeyEvent.VK_SPACE) {
+				}else if(tecla==KeyEvent.VK_LEFT){
+					juegoController.moverNaveIzquierda();
+				}
+				 else if (tecla == KeyEvent.VK_SPACE) {
 					if(puedeDisparar){
 					ImagenRayo imagenRayo = new ImagenRayo();
 					add(imagenRayo);
