@@ -1,0 +1,4 @@
+juli,0
+juli2,100
+aklsdasld,70
+asdasd,90
